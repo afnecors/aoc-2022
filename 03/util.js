@@ -1,7 +1,6 @@
 function generatePriorityDic() {
-  // 97 is "a", 65 is "A"
-  let charLow = String.fromCharCode(97);
-  let charUp = String.fromCharCode(65);
+  let charLow = "a";
+  let charUp = "A";
 
   let priorityDic = {};
 
